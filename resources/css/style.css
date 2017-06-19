@@ -58,3 +58,15 @@ h2, h3, h4 {
   width: 100%;
   margin: auto;
 }
+.item img {
+  display: block;
+  height: 200px;
+  margin: 10px;
+}
+.item span {
+  display: block;
+  font-weight: bold;
+  padding: 5px;
+  text-align: center;
+  color: seashell;
+}
