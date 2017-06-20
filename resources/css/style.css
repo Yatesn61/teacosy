@@ -90,8 +90,8 @@ h2, h3, h4 {
 /* locations*/
 
 .location {
-  flex-basis: 280px;
   display: flex;
+  flex: 280px;
   flex-direction: column;
   margin: 5px 20px;
   padding: 10px;
@@ -107,4 +107,18 @@ h2, h3, h4 {
 p {
   color: seashell;
   opacity: 0.9;
+}
+
+/* contact and footer */
+
+#contact {
+  height: 200px;
+}
+h5 {
+  color: seashell;
+  opacity:0.9;
+  font-weight: bold;
+}
+footer {
+  text-align: left;
 }
